@@ -17,9 +17,9 @@
  * limitations under the License.
  * ========================================================== */
 
-alert("alert");
+
 !function ($) {
-alert("sdfsdf");
+
   "use strict"; // jshint ;_;
 
 
@@ -27,7 +27,7 @@ alert("sdfsdf");
    * ======================================================= */
 
   $(function () {
-alert("11111111");
+
     $.support.transition = (function () {
 
       var transitionEnd = (function () {
