@@ -14,7 +14,6 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree ./js
-//= require_self
 
 
 $( document ).ready(function() {
@@ -24,4 +23,4 @@ $( document ).ready(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
       });
 
-     });
+});
