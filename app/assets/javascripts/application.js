@@ -15,3 +15,13 @@
 //= require activestorage
 //= require_tree ./js
 //= require_self
+
+
+$( document ).ready(function() {
+    $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+      }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+      });
+
+     });
