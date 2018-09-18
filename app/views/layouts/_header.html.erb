@@ -143,10 +143,14 @@
     </div>
   </header>
   <script type="text/javascript">
+    $( document ).ready(function() {
+    alert("testing");
     $('ul.nav li.dropdown').hover(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
       }, function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
       });
 
+     });
+    
   </script>
