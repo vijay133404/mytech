@@ -6,8 +6,8 @@
 */
 
 /* ==== overwrite bootstrap standard ==== */
-@import url('overwrite.css');
-@import url('headerfix.css');
+@import url('<%= asset_path "overwrite.css" %>');
+@import url('<%= asset_path "headerfix.css" %>');
 /* ====================================== */
 
 .clear { clear:both; }
@@ -1969,7 +1969,7 @@ ul.social-network li a:focus {
 	height:51px;
 	border:none;
 	text-indent:-999px;
-	background-image:url(../img/ui.totop.png);
+	background-image:url('<%= asset_path "img/ui.totop.png" %>');
 	background-repeat:no-repeat;
 	background-position: top left;
 	background-color:none;
