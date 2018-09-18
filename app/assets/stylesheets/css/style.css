@@ -824,26 +824,7 @@ article.blog-post img{
 	margin-bottom:30px;
 }
 
-article.blog-post img:hover{
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
-  /* IE 5-7 */
-  filter: alpha(opacity=80);
-
-  /* Netscape */
-  -moz-opacity: 0.7;
-
-  /* Safari 1.x */
-  -khtml-opacity: 0.7;
-
-  /* Good browsers */
-  opacity: 0.7;
-}
-
-article.blog-post img.thumbnail{
-	margin-bottom:0;
-}
 
 
 /* ====== post format ================ */
@@ -1373,12 +1354,12 @@ i.icon-bg-dark {
 
 .accordion-heading.togglize .accordion-toggle.active span {
 	opacity:0;
-	filter: alpha(opacity=0);
+	/*filter: alpha(opacity=0);*/
 }
 
 .accordion-heading.togglize .accordion-toggle.active span + span {
 	opacity:1;
-	filter: alpha(opacity=100);
+	/*filter: alpha(opacity=100);*/
 }
 
 .accordion-inner {
@@ -1993,19 +1974,7 @@ ul.social-network li a:focus {
 	background-position: top left;
 	background-color:none;
 }
-#toTopHover 	{
-	background-image:url(../img/ui.totop.png);
-	background-repeat:no-repeat;
-	background-position: left -51px;
-	width:51px;
-	height:51px;
-	display:block;
-	overflow:hidden;
-	float:left;
-	opacity: 0;
-	-moz-opacity: 0; f
-	ilter:alpha(opacity=0);
-}
+
 #toTop:active, #toTop:focus 	{ outline:none; }
 
 /* img */
@@ -2019,23 +1988,7 @@ img.max-img {
 }
 
 /* effects */
-.rotate:hover {
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-
-  /* IE 5-7 */
-  filter: alpha(opacity=80);
-
-  /* Netscape */
-  -moz-opacity: 0.7;
-
-  /* Safari 1.x */
-  -khtml-opacity: 0.7;
-
-  /* Good browsers */
-  opacity: 0.7;
-}
-
+/**/
 
 /*================================== doc , overview bootstrap features ========================*/
 
